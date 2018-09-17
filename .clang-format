@@ -1,12 +1,18 @@
 ﻿---
 BasedOnStyle: WebKit
 AlignEscapedNewlinesLeft: 'true'
+AlignOperands: 'true'
 AlignTrailingComments: 'true'
 AllowShortBlocksOnASingleLine: 'true'
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: 'true'
 AllowShortLoopsOnASingleLine: 'true'
-ColumnLimit: '120'
+ColumnLimit: '100'
 IndentWidth: '4'
 Language: Cpp
+MaxEmptyLinesToKeep: '1'
+PointerAlignment: Left
+SpacesInAngles: 'false'
 Standard: Cpp11
 
 ...
